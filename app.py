@@ -136,7 +136,7 @@ def check_credentials(username: str, password: str) -> bool:
         return username == st.secrets["auth"]["username"] and \
                password == st.secrets["auth"]["password"]
     except Exception:
-        return username == "hady" and password == "nexa2026"
+        return username == "admin" and password == "admin"
 
 def login_page():
     col = st.columns([1, 2, 1])[1]
@@ -943,7 +943,7 @@ elif page == "Page 4":
     <b>Responsable du traitement :</b> Hady COULIBALY — Data Scientist<br>
     <b>Base légale :</b> Consentement explicite de l'utilisateur (Art. 6.1.a RGPD)<br>
     <b>Durée de conservation :</b> Données de session uniquement — non persistantes<br>
-    <b>Contact DPO :</b> contact@healthinsurtech.fr<br>
+    <b>Contact DPO :</b> hady.coulibaly@edu.nexa.fr<br>
     <b>Autorité de contrôle :</b> CNIL — www.cnil.fr<br>
     <b>Droit à l'oubli :</b> Délai de traitement 30 jours maximum
     </div>
