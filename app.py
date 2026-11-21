@@ -136,7 +136,8 @@ def check_credentials(username: str, password: str) -> bool:
         return username == st.secrets["auth"]["username"] and \
                password == st.secrets["auth"]["password"]
     except Exception:
-        return username == "admin" and password == "admin"
+        # Pas de secrets configurés : aucun accès (aucun identifiant par défaut).
+        return False
 
 def login_page():
     col = st.columns([1, 2, 1])[1]

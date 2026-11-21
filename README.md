@@ -1,6 +1,6 @@
 # 🏥 Health-InsurTech — Application Streamlit RGPD
 
-**Auteur** : Hady COULIBALY — Étudiant Data Science
+**Auteur** : Hady COULIBALY — Data Analyst & Data Scientist
 **Projet** : Prédire les frais de santé de manière éthique
 
 ---
@@ -78,4 +78,4 @@ password = "votre_mot_de_passe"
 - Arbre de Décision (règles si-alors)
 - Random Forest (robuste, feature importance)
 
-**Identifiants par défaut :** `admin` / `admin`
+**Accès :** défini dans `.streamlit/secrets.toml` (voir « Secrets à configurer »). Aucun identifiant par défaut n'est fourni.
